@@ -2,6 +2,8 @@
 
 所有命令從解壓縮後的專案根目錄執行；套件匯入使用 `examples.*`。
 
+成績案例的派工提示為 `prompts/grades-developer.md` 與 `prompts/grades-qa.md`；`prompts/qa.md` 是網站專用提示。請在自己的練習副本派工，以便保留參考版本。
+
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt

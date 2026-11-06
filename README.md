@@ -1,15 +1,15 @@
 # HERDR Multi-Agent 實戰教材：讀者實作包
 
-這是《HERDR Multi-Agent 實戰教材》實作驗證版 1.0 的讀者服務資源，版本 **v1.0.0**。包含可執行程式、角色提示詞、測試與操作說明。
+這是《HERDR Multi-Agent 實戰教材》1.0 的讀者服務資源，版本 **v1.0.1**。包含可執行程式、角色提示詞、測試與操作說明。
 
 維護者：Happy eBook／GitHub 帳號 t945935。
 
 ## 下載與版本
 
 - [讀者資源庫](https://github.com/t945935/herdr-multi-agent-reader)
-- [本書對應的 v1.0.0 下載頁](https://github.com/t945935/herdr-multi-agent-reader/releases/tag/v1.0.0)
-- [下載 herdr-multi-agent-reader.zip](https://github.com/t945935/herdr-multi-agent-reader/releases/download/v1.0.0/herdr-multi-agent-reader.zip)
-- [下載 SHA256SUMS.txt](https://github.com/t945935/herdr-multi-agent-reader/releases/download/v1.0.0/SHA256SUMS.txt)
+- [本書對應的 v1.0.1 下載頁](https://github.com/t945935/herdr-multi-agent-reader/releases/tag/v1.0.1)
+- [下載 herdr-multi-agent-reader.zip](https://github.com/t945935/herdr-multi-agent-reader/releases/download/v1.0.1/herdr-multi-agent-reader.zip)
+- [下載 SHA256SUMS.txt](https://github.com/t945935/herdr-multi-agent-reader/releases/download/v1.0.1/SHA256SUMS.txt)
 
 公開版本可直接下載，不要求 GitHub 登入。將 ZIP 解壓到可寫入目錄；以下命令從解壓後、含 examples 與 tests 的根目錄執行。
 
@@ -53,9 +53,9 @@ sha256sum -c SHA256SUMS.txt
 
 ## 問題回報與替代取得方式
 
-請使用 [GitHub Issues](https://github.com/t945935/herdr-multi-agent-reader/issues)，附資源版本、系統、執行命令與不含個資的錯誤訊息。若直接下載連結失效，先到 v1.0.0 發行頁查看 Assets；也可以從資源庫的 Code → Download ZIP 取得程式。
+請使用 [GitHub Issues](https://github.com/t945935/herdr-multi-agent-reader/issues)，附資源版本、系統、執行命令與不含個資的錯誤訊息。若直接下載連結失效，先到 v1.0.1 發行頁查看 Assets；也可以從資源庫的 Code → Download ZIP 取得程式。
 
-本書 1.0 對應 v1.0.0。後續修正以新版本發行並保留對應紀錄；不承諾永久在線或即時更新。書中附錄亦收錄核心程式及提示詞。
+本書 1.0 使用 v1.0.1，補充成績專用的 Developer／QA 提示；v1.0.0 仍保留。後續修正以新版本發行並保留對應紀錄；不承諾永久在線或即時更新。書中附錄亦收錄核心程式及提示詞。
 
 ## 使用範圍
 

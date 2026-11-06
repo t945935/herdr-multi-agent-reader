@@ -1,5 +1,5 @@
 {
-  "resource_version": "v1.0.0",
+  "resource_version": "v1.0.1",
   "book_edition": "1.0",
   "repository": "https://github.com/t945935/herdr-multi-agent-reader",
   "files": {
@@ -8,16 +8,16 @@
       "bytes": 93
     },
     "CHANGELOG.md": {
-      "sha256": "2366b38c01b969ea61140542043d51c121f1eeb9f851648ac519a23e7c31e961",
-      "bytes": 489
+      "sha256": "3b7f74d2f7ad5b1a1e901ec10c63d9fabcb46c524ea1df75d1f290746e03d211",
+      "bytes": 731
     },
     "README.md": {
-      "sha256": "a5138a2e737d03805dc922ec50c6d40ee3f30bbd47711cb412a4c1ebccea92a1",
-      "bytes": 2879
+      "sha256": "3d4eb705261739f5145450f662abf5155580c87dccd58347dd65fb88aed2e7d2",
+      "bytes": 2928
     },
     "examples/README.md": {
-      "sha256": "7d89c9c55f44152e869382b3556cd45230c3fb2a28b674d5083a0def4a885c46",
-      "bytes": 1534
+      "sha256": "380262f18aabb3b8768a655b7ef9cfd94b375d8dbed083a502b4277dd5c1fc6f",
+      "bytes": 1729
     },
     "examples/__init__.py": {
       "sha256": "7e999d379a0ed91214e61bb7160cba367f3c222650bf38bfc45dbbb1d030312a",
@@ -58,6 +58,14 @@
     "examples/prompts/frontend.md": {
       "sha256": "503347e55842dab4d58f8277e82034275ea91489ae3b309cf70c11312833b25e",
       "bytes": 336
+    },
+    "examples/prompts/grades-developer.md": {
+      "sha256": "7fdd0e28ddeaef46a8a65873ae9e4b45ce866b62abbc54900d3fc8c599d506b2",
+      "bytes": 986
+    },
+    "examples/prompts/grades-qa.md": {
+      "sha256": "c58e0b1e4d8c0f9c1644b9079237a8ae9fc22729ae67d9cb7026ca7eec57c652",
+      "bytes": 923
     },
     "examples/prompts/manager.md": {
       "sha256": "a78c449cc1b28375b1550a9ffd29f25f4c5c048054992dfe610e7ee4ee793396",
