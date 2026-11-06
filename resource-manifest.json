@@ -1,0 +1,155 @@
+{
+  "resource_version": "v1.0.0",
+  "book_edition": "1.0",
+  "repository": "https://github.com/t945935/herdr-multi-agent-reader",
+  "files": {
+    ".gitignore": {
+      "sha256": "cb4c88838f881e9fbde264a8566044609494c4c5588ff9ff94685a6f045c3563",
+      "bytes": 93
+    },
+    "CHANGELOG.md": {
+      "sha256": "2366b38c01b969ea61140542043d51c121f1eeb9f851648ac519a23e7c31e961",
+      "bytes": 489
+    },
+    "README.md": {
+      "sha256": "a5138a2e737d03805dc922ec50c6d40ee3f30bbd47711cb412a4c1ebccea92a1",
+      "bytes": 2879
+    },
+    "examples/README.md": {
+      "sha256": "7d89c9c55f44152e869382b3556cd45230c3fb2a28b674d5083a0def4a885c46",
+      "bytes": 1534
+    },
+    "examples/__init__.py": {
+      "sha256": "7e999d379a0ed91214e61bb7160cba367f3c222650bf38bfc45dbbb1d030312a",
+      "bytes": 62
+    },
+    "examples/calculator.py": {
+      "sha256": "cb7877d9ceaabb8b472cdb34248f8bf73251f3f2153430bfdc217203f4fe3549",
+      "bytes": 671
+    },
+    "examples/grades.py": {
+      "sha256": "1cc4fb79e3118072d429af3985284778aa82afc587f9afa7abd66130bdfd5fc0",
+      "bytes": 2142
+    },
+    "examples/handoff.py": {
+      "sha256": "608fe4a0ddc024ee26a5b9383bd59c38bb4af719f6f24d373d2d56e4db40f0e5",
+      "bytes": 1583
+    },
+    "examples/pipeline.py": {
+      "sha256": "55c3f03388b8d7f7ae31bc45fb88b91ad4664d3926b59567eaafd103c791412f",
+      "bytes": 2417
+    },
+    "examples/prompts/backend.md": {
+      "sha256": "68a328d7f12ef417927ff16363d3eb57e9043d2d0cd6546cc65ea932fdfa88fc",
+      "bytes": 356
+    },
+    "examples/prompts/database.md": {
+      "sha256": "7bb9c3273c143bc2bd5e13cee38f4753d65cca6da8058163df3087e66d64a0f4",
+      "bytes": 357
+    },
+    "examples/prompts/developer.md": {
+      "sha256": "10069b10b1010ec0c91978101e5995758eb62db2e9744fc08074b12e4a30e7d9",
+      "bytes": 623
+    },
+    "examples/prompts/fact-checker.md": {
+      "sha256": "d44538e29297bd95ebfc1c18ce57a8b944a5e05bcf4c6c9509ea0f2c6d72f06b",
+      "bytes": 334
+    },
+    "examples/prompts/frontend.md": {
+      "sha256": "503347e55842dab4d58f8277e82034275ea91489ae3b309cf70c11312833b25e",
+      "bytes": 336
+    },
+    "examples/prompts/manager.md": {
+      "sha256": "a78c449cc1b28375b1550a9ffd29f25f4c5c048054992dfe610e7ee4ee793396",
+      "bytes": 665
+    },
+    "examples/prompts/qa.md": {
+      "sha256": "3a89be0a3ac651d2dd249d0951581f7afff596db2fe35d9bdcee94110c4bce9e",
+      "bytes": 305
+    },
+    "examples/prompts/receipt-smoke.md": {
+      "sha256": "1a7399c72e279d8d5a6265dcb6cd82272e78508134ef2c6acd51e57908d914f3",
+      "bytes": 447
+    },
+    "examples/prompts/researcher.md": {
+      "sha256": "a0c61db0252d01aa42443dee25b09098d5d516f3552cfee3cd972d520e277eba",
+      "bytes": 539
+    },
+    "examples/prompts/reviewer-a.md": {
+      "sha256": "e3c0bda7a5b7a4d62ef8b92765f15708bdba5d88e25baf99b8e9469899430876",
+      "bytes": 559
+    },
+    "examples/prompts/reviewer-b.md": {
+      "sha256": "8fee4ca7e5523d99111c2327cc10558b364f9e96606d522175ad61a565ba80b7",
+      "bytes": 570
+    },
+    "examples/queue.py": {
+      "sha256": "1c1977de730f605899c619cf816225e1149def71032691943b6998d64777c917",
+      "bytes": 5659
+    },
+    "examples/research-evidence.json": {
+      "sha256": "2d92d5356e8895711f69ace4db34dcdebf5d26b8c29eb380ad66aa3ba4bf2b50",
+      "bytes": 2094
+    },
+    "examples/research.py": {
+      "sha256": "d18abc5f26ebfb56a4e756a1d223ebb99ca0514bae79c0f13d13f28be144398e",
+      "bytes": 2636
+    },
+    "examples/task_manager/__init__.py": {
+      "sha256": "1b850b577b9d0d06c07979c05e69f669f6726549b91929ff4c6dae2ec0847681",
+      "bytes": 35
+    },
+    "examples/task_manager/db.py": {
+      "sha256": "802d395772fb3667bbb28cbaf72f18e1f93af044767f36b1797c296c181d3202",
+      "bytes": 1953
+    },
+    "examples/task_manager/main.py": {
+      "sha256": "af026b620318cd17b13c9c3597379fb7fd2208f9d749a1ecf6fef50e3e94bf1e",
+      "bytes": 2313
+    },
+    "examples/task_manager/static/app.js": {
+      "sha256": "6b76266a37b372c194a8cacbc905a53a45fc81de1d326609d8a590c9b2fe4558",
+      "bytes": 2312
+    },
+    "examples/task_manager/static/index.html": {
+      "sha256": "7d26fd459466e07045cac1e5400b5bdd4d2f0c1b491f92a71620151830fb6f49",
+      "bytes": 627
+    },
+    "examples/task_manager/static/style.css": {
+      "sha256": "db5deebc566223289a597ef4aac2275004b787ee6ab842cd54e3876265c9c819",
+      "bytes": 658
+    },
+    "requirements-reader.txt": {
+      "sha256": "a45dd04a2d8a44160508ffc731ea77102ea2e861535fa92985c2a72b1475c835",
+      "bytes": 61
+    },
+    "requirements.txt": {
+      "sha256": "a45dd04a2d8a44160508ffc731ea77102ea2e861535fa92985c2a72b1475c835",
+      "bytes": 61
+    },
+    "scripts/make_handoff.py": {
+      "sha256": "339ab94ed5b229382f138c6babe951912b2681b206987352eff6ce49bcedf155",
+      "bytes": 604
+    },
+    "scripts/probe_herdr.py": {
+      "sha256": "4490ac1215a8ca79227a908c695ea348943159cfaad2d54bfadb2c1c971193c6",
+      "bytes": 6191
+    },
+    "scripts/team.py": {
+      "sha256": "abc09bec95fbfa740f6de0ec74cbc2d0907c599d7dc91bc07a7869236e6f30cb",
+      "bytes": 2439
+    },
+    "tests/test_api.py": {
+      "sha256": "d06e38aaf157a6d44d5dcdc0842422ab9aaedf113913b0518d33c901485f1d9d",
+      "bytes": 2527
+    },
+    "tests/test_contracts.py": {
+      "sha256": "5c758ce2113feea91bc2e4d9a87539943a7087765f67a70e2f163793199ef52e",
+      "bytes": 5563
+    },
+    "tests/test_queue_concurrency.py": {
+      "sha256": "bf949e76e4b9769caa17ccaabe9a30d89b248bf21d32b00e9cbe00583a0c5e16",
+      "bytes": 579
+    }
+  }
+}

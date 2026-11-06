@@ -1,0 +1,18 @@
+{
+  "question": "本地 LLM 與 Multi-Agent Coding 環境應如何分層選型？",
+  "sources": [
+    {"id": "S1", "title": "Herdr Agent automation", "url": "https://herdr.dev/tui/docs/agent-automation/", "accessed": "2026-11-06", "kind": "official"},
+    {"id": "S2", "title": "Herdr CLI reference", "url": "https://herdr.dev/tui/docs/cli-reference/", "accessed": "2026-11-06", "kind": "official"},
+    {"id": "S3", "title": "Ollama API Introduction", "url": "https://docs.ollama.com/api/introduction", "accessed": "2026-11-06", "kind": "official"},
+    {"id": "S4", "title": "llama.cpp HTTP Server", "url": "https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md", "accessed": "2026-11-06", "kind": "official"},
+    {"id": "S5", "title": "Codex CLI", "url": "https://developers.openai.com/codex/cli/", "accessed": "2026-11-06", "kind": "official"}
+  ],
+  "claims": [
+    {"text": "等待完成只代表生命週期狀態符合條件，仍需驗收成果", "status": "supported", "evidence": [{"source": "S1", "quote": "It does not track individual turns."}]},
+    {"text": "pane wait-output 適合一般程式輸出，agent wait 適合 Agent", "status": "supported", "evidence": [{"source": "S2", "quote": "Use pane wait-output for normal commands and servers. Use agent wait for coding agents."}]},
+    {"text": "Ollama 提供本地推理入口，且另有雲端使用情境", "status": "supported", "evidence": [{"source": "S3", "quote": "Use Ollama's API to build applications with cloud or local models."}]},
+    {"text": "llama.cpp server 提供模型 REST API 與網頁介面", "status": "supported", "evidence": [{"source": "S4", "quote": "Set of LLM REST APIs and a web UI to interact with llama.cpp."}]},
+    {"text": "Coding CLI 可在終端檢查、修改程式並執行命令", "status": "supported", "evidence": [{"source": "S5", "quote": "Inspect code, make changes, run commands, and automate repeatable work without leaving your terminal."}]},
+    {"text": "更多 Agent 一定能讓本地 LLM 研究更準確", "status": "uncertain", "evidence": []}
+  ]
+}
